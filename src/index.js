@@ -13,3 +13,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+// we create the srote using createStore, provided by redux
+// then we pass store into the Provider, which allow us access when we connect our components
